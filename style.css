@@ -1,0 +1,20 @@
+h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+body {
+    background: lightgray;
+}
+.borderz {
+    border: solid;
+    border-color: #5b5d61;
+}
+.styling {
+    background-color: white;
+    padding: 6px;
+    margin: 20px;
+}
+.display-flex {
+    display: flex;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <h1 class="text-center">Weather DashBoard<h1>
+    </nav>
+    <div class="container-fluid">
+
+        <div class="row col-2"><h3>Search For A City:</h3></div>
+        <div class="row">
+            <div class="md-form mt-0 col-2">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                <p class="styling" id="cities">Cities</p>
+            </div>
+            <div class="col-1">
+                <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+                </svg>
+                <br>
+            </div>
+                <div class="col-9 borderz">
+                    <h2 id="state">Texas:</h2>
+                    <p id="temp">Temperature:</p>
+                    <p id="humidity">Humidity:</p>
+                    <p id="windSpeed">Wind Speed:</p>
+                    <p id="uv">UV Index:</p>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-2">
+                <h1 class=>5 Day Forecast</h1>
+            </div>
+
+        </div>
+        
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-9 display-flex"> 
+                <div class="card m-2" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/rain.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Date</p>
+                      <p class="card-text">Temp</p>
+                      <p class="card-text">Humidity</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card m-2" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/sun.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Date</p>
+                      <p class="card-text">Temp</p>
+                      <p class="card-text">Humidity</p>
+                    </div>
+                  </div>
+
+                  <div class="card m-2" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/sun.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Date</p>
+                      <p class="card-text">Temp</p>
+                      <p class="card-text">Humidity</p>
+                    </div>
+                  </div>
+
+                  <div class="card m-2" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/sun.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Date</p>
+                      <p class="card-text">Temp</p>
+                      <p class="card-text">Humidity</p>
+                    </div>
+                  </div>
+
+                  <div class="card m-2" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/sun.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Date</p>
+                      <p class="card-text">Temp</p>
+                      <p class="card-text">Humidity</p>
+                    </div>
+                  </div>
+                  
+            </div>
+        </div>
+
+        
+    </div>
+
+</body>
+
+
+</html>
